@@ -3,7 +3,7 @@ const config = require('./config')
 
 const math = require('mathjs')
 const { Client } = require('discord.js-selfbot-v13')
-keepAlive = require('./keep_alive.js');
+const keepAlive = require('./keep_alive.js');
 
 keepAlive();
 const client = new Client({ checkUpdate: false })
